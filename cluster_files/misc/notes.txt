@@ -1,0 +1,1 @@
+The pipeline for running the emulator follows: first run 2LPT, creating both the grid (just run lpt with 0 displacement) and the normal lpt outputs, run convert_gadget_to_npy.py to get the lpt outputs ready for the emulator, run the emulator, then convert_emu_to_npy reshapes, then convert_pos_to_ascii sets up the rockstar input files. Then run rockstar.

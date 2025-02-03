@@ -1,0 +1,32 @@
+#!/bin/bash
+
+cd sb5
+sbatch stacked0_14.0.sh
+cd ..
+cd sb5
+sbatch stacked1_14.0.sh
+cd ..
+cd sb5
+sbatch stacked2_14.0.sh
+cd ..
+cd sb5
+sbatch stacked3_14.0.sh
+cd ..
+cd sb5
+sbatch stacked4_14.0.sh
+cd ..
+cd sb5
+sbatch stacked0_14.5.sh
+cd ..
+cd sb5
+sbatch stacked1_14.5.sh
+cd ..
+cd sb5
+sbatch stacked2_14.5.sh
+cd ..
+cd sb5
+sbatch stacked3_14.5.sh
+cd ..
+cd sb5
+sbatch stacked4_14.5.sh
+cd ..
